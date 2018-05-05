@@ -1,6 +1,7 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #D6E0F6;
+  color: #222130;
+  font-size: 16px;
 }
 
 nav {
@@ -42,6 +43,23 @@ li {
   padding: 30px;
 }
 
+a {
+  text-decoration: none;
+  color: #EF00FF;
+}
+
+a:hover {
+  color: #FF0D28;
+}
+
+a:active {
+  color: #E80C93;
+}
+
+a:visited {
+  color: #9E0CE8;
+}
+
 article {
   padding-top: 100px;
 }
@@ -49,4 +67,22 @@ article {
 .container {
   margin: 0 auto;
   width: 50%;
+}
+
+h1 {
+	font-size: 2em;
+  line-height: 2;
+}
+
+h3 {
+	font-size: 1.2em;
+  line-height: 1.2;
+}
+
+figcaption {
+	font-size: .8em;
+}
+
+.story-text {
+  line-height: 1.2;
 }
