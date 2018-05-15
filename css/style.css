@@ -45,7 +45,10 @@ li {
 
 a {
   text-decoration: none;
-  color: #EF00FF;
+}
+
+a:link {
+    color: blue;
 }
 
 a:hover {
@@ -59,7 +62,6 @@ a:active {
 a:visited {
   color: #9E0CE8;
 }
-
 article {
   padding-top: 100px;
 }
